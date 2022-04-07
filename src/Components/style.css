@@ -1,0 +1,19 @@
+.bg{
+    background: url('bg2.gif');
+    height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ant-card{
+    box-shadow: 0 0 2rem #0002;
+    border: 1px solid #fff2 !important;
+    backdrop-filter: blur(15px) !important;
+    border-radius: 1rem !important;
+    padding: .8rem 1rem !important;
+    color: white !important;
+    background: linear-gradient(8deg, #fff0, #fff2, #fff3) !important;
+}
